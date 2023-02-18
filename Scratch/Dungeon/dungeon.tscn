@@ -17,4 +17,7 @@ script = ExtResource("3_8upf4")
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 0.847909, 0.530141, 0, -0.530141, 0.847909, 16, 20.3137, 31.7163)
 
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.813324, -0.523607, 0.253652, 0, 0.435969, 0.899961, -0.581811, -0.73196, 0.354585, 0, 0, 0)
+
 [connection signal="dungeon_generated" from="DungeonGenerator" to="DungeonGridMap" method="_on_dungeon_generator_dungeon_generated"]

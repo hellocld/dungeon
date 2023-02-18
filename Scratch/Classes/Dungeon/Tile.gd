@@ -1,5 +1,5 @@
 class_name DungeonTile
-extends RefCounted
+extends Resource
 
 ## Possible base tile types
 enum Types {
